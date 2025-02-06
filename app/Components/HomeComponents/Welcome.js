@@ -51,7 +51,7 @@ const Welcome = () => {
           Liosell Enterprise, Deal Of Honesty!
         </p>
         <p className="text-white/80 mt-3 md:mt-4 font-montserrat font-medium text-[18px] md:text-[28px] leading-[24px] md:leading-[31px] tracking-[-0.03em]">
-          Crafting excellence with premium brass articular hardware.
+          Crafting excellence with premium brass architectural hardware.
         </p>
       </div>
     </div>

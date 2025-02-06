@@ -36,14 +36,13 @@ const Certificates = () => {
           </defs>
         </svg>
       </div>
-      <div className="mx-auto py-10 w-[95%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="mx-auto py-10 w-[95%] flex flex-wrap justify-center gap-6">
         {[
           "GST",
           "MSME",
           "UDYOG AADHAR",
           "ICE GATE",
           "DGFT",
-          "APEDA",
           "GPCB",
           "FIEO",
         ].map((name, index) => (
