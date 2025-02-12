@@ -1,12 +1,11 @@
 import React from "react";
-import Products from "./Products";
 
-const RangeOfProducts = () => {
+const TitleCard = ({ title }) => {
   return (
-    <div className=" mx-auto py-10 w-[95%] ">
+    <>
       <div className="flex flex-col items-center mb-10">
         <h2 className="mb-3 text-[rgba(39,57,146,1)] font-Montserrat font-bold text-4xl leading-[40px] tracking-[-0.03em]">
-          Our Range Of Products
+          {title}
         </h2>
         <svg
           width="362"
@@ -37,27 +36,8 @@ const RangeOfProducts = () => {
           </defs>
         </svg>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-        <Products
-          data-aos="flip-left"
-          imageSRC="Brass Mortaise Handle.png"
-          imageALT="Brass Mortaise Handle"
-        />
-        <Products
-          imageSRC="Brass Pin Cylinder.png"
-          imageALT="Brass Pin Cylinder"
-        />
-        <Products
-          imageSRC="Brass Door Hinges.png"
-          imageALT="Brass Door Hinges"
-        />
-        <Products
-          imageSRC="Brass Tower Bolts.png"
-          imageALT="Brass Tower Bolts"
-        />
-      </div>
-    </div>
+    </>
   );
 };
 
-export default RangeOfProducts;
+export default TitleCard;
