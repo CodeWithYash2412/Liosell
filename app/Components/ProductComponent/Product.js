@@ -40,8 +40,6 @@ const Product = () => {
       <TitleCard title="Brass Mortise" />
 
       <div className="flex flex-wrap justify-center gap-4 m-10">
-        <ProductCard type="Mortise" name="p1" />
-        <ProductCard type="Mortise" name="p2" />
         <ProductCard type="Mortise" name="p3" />
         <ProductCard type="Mortise" name="p4" />
         <ProductCard type="Mortise" name="p5" />
@@ -58,6 +56,19 @@ const Product = () => {
         <ProductCard type="Mortise" name="p16" />
         <ProductCard type="Mortise" name="p17" />
         <ProductCard type="Mortise" name="p18" />
+        <ProductCard type="Mortise" name="p19" />
+        <ProductCard type="Mortise" name="p20" />
+        <ProductCard type="Mortise" name="p21" />
+        <ProductCard type="Mortise" name="p22" />
+        <ProductCard type="Mortise" name="p23" />
+        <ProductCard type="Mortise" name="p24" />
+        <ProductCard type="Mortise" name="p25" />
+        <ProductCard type="Mortise" name="p26" />
+        <ProductCard type="Mortise" name="p27" />
+        <ProductCard type="Mortise" name="p28" />
+        <ProductCard type="Mortise" name="p29" />
+        <ProductCard type="Mortise" name="p30" />
+        <ProductCard type="Mortise" name="p31" />
       </div>
     </>
   );
